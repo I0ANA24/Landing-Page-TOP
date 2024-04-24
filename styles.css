@@ -12,11 +12,11 @@
     justify-content: center;
     height: 80vh;
     background-color: #1F2937;
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
 }
 
 .s1content {
-    width: 85vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
 }
@@ -48,14 +48,17 @@
 .content-down {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 2vw;
     align-items: center;
     height: 90%;
 }
 
 .left {
     width: 50%;
-    height: 70%;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .left h2 {
@@ -81,7 +84,7 @@
 
 .right {
     width: 50%;
-    height: 60%;
+    height: 70%;
     display: flex;
     background-color: gray;
     justify-content: center;
@@ -89,3 +92,4 @@
     font-size: 18px;
     color: #E5E7EB;
 }
+
