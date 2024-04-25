@@ -174,7 +174,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 40vh;
 }
 
 .blue-area {
@@ -219,4 +219,20 @@ img {
 #subcall {
     font-size: 0.9em;
     padding-top: 2px;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
