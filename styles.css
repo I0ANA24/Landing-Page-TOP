@@ -12,7 +12,6 @@
     justify-content: center;
     height: 80vh;
     background-color: #1F2937;
-    /* padding-top: 1vh; */
 }
 
 .s1content {
@@ -31,7 +30,6 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    /* width: fit-content; */
 }
 
 .links {
@@ -56,9 +54,6 @@
 .left {
     width: 50%;
     height: auto;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .left h2 {
@@ -96,18 +91,13 @@
 .section2 {
     height: 60vh;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
-    /* align-items: center; */
 }
 
 .s2content {
-    /* height: 75%; */
     width: 70%;
-    /* font-size: 18px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
 }
 
 h3 {
@@ -130,7 +120,6 @@ h3 {
 .illustration {
     width: 140px;
     height: 70%;
-    /* flex: 1; */
 }
 
 img {
@@ -139,7 +128,6 @@ img {
     height: 140px;
     border: 3px solid #3882F6;
     border-radius: 10px;
-    /* flex: 1; */
 }
 
 .subtext {
@@ -148,4 +136,36 @@ img {
     text-indent: 0%;
     font-size: 12px;
     padding-top: 5px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #E5E7EB;
+}
+
+.s3block {
+    width: fit-content;
+    max-width: 70vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 10;
+    color: #1F2937;
+}
+
+#author {
+    width: 100%;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
