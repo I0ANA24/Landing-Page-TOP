@@ -71,7 +71,7 @@
     border: none;
     font-size: 18px;
     color: #F9FAF8;
-    padding: 5px 30px;
+    /* padding: 5px 30px; */
     border-radius: 5px;
     background-color: #3882F6;
     margin-top: 10px;
@@ -208,7 +208,7 @@ img {
 }
 
 #butt-down {
-    padding: 5px 35px;
+    /* padding: 5px 35px; */
     border-radius: 5px;
     border: 2px solid #F9FAF8;
     background-color: #3882F6;
@@ -235,4 +235,22 @@ a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+}
+
+#butt-up-a {
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+#butt-down-a {
+    display: inline-block;
+    padding: 5px 35px;
+}
+
+.logo:hover, li:hover, #butt-up:hover, #butt-down:hover {
+    color: #3882F6;
+}
+
+#butt-up:hover, #butt-down:hover {
+    background-color: #F9FAF8;
 }
